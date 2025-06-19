@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MNM Facilitech Pvt. Ltd.</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    body { background: #f4f4f4; color: #333; }
+    header { background: #003366; color: white; display: flex; justify-content: space-between; align-items: center; padding: 15px 30px; flex-wrap: wrap; }
+    .logo { height: 50px; }
+    nav ul { display: flex; gap: 20px; list-style: none; flex-wrap: wrap; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 50px 30px; background: white; margin: 20px; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+    section h2 { margin-bottom: 15px; color: #003366; }
+    ul { padding-left: 20px; }
+    footer { background: #003366; color: white; text-align: center; padding: 15px; }
+    form { display: flex; flex-direction: column; gap: 10px; max-width: 500px; }
+    input, textarea, select { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    input[type="submit"] { background-color: #003366; color: white; border: none; cursor: pointer; transition: background 0.3s; }
+    input[type="submit"]:hover { background-color: #0055a5; }
+    @media (max-width: 600px) { nav ul { flex-direction: column; gap: 10px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://img1.wsimg.com/isteam/ip/951f8c7c-0995-4ef3-a7bc-129698b573c7/MNM%20TM%20LOGO.jpeg/:/rs=w:444,h:268,cg=true,m/cr=w:444,h:268/qt=q:100/ll" alt="MNM Logo" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#career">Careers</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to MNM Facilitech Pvt. Ltd.</h1>
+    <p>Your trusted partner in Facility Management, IT Solutions, and Corporate Training.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a Hyderabad-based company incorporated in 2025 with a mission to deliver professional services in:</p>
+    <ul>
+      <li>All types of Facility Management – housekeeping, plumbing, electricals, gardening, and more</li>
+      <li>IT & Software – web design, development, testing, and digital solutions</li>
+      <li>Online Education – e-tutoring for school and college students</li>
+    </ul>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>🏢 Facility Management: Housekeeping, Electrical, Plumbing, Landscaping, Pest Control</li>
+      <li>💻 IT Solutions: Software Design, Web Development, Maintenance & Customization</li>
+      <li>📚 Online Tutoring: For schools, colleges, and universities via digital platforms</li>
+      <li>👷 Manpower & Staffing: Skilled/unskilled labor supply</li>
+      <li>📈 Business Support: Admin services, logistics, office operations</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="mailto:mnm.mohan.finance@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="Name" placeholder="Your Name" required />
+      <input type="email" name="Email" placeholder="Your Email" required />
+      <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+      <input type="submit" value="Send Message" />
+    </form>
+    <p style="margin-top: 15px;">Or reach us directly:</p>
+    <p>Email: <a href="mailto:business@mnmfacilitech.com">business@mnmfacilitech.com</a></p>
+    <p>Phone: +91 7672052402</p>
+    <p>Address:<br>MNM Facilitech Spacelance<br>#203, 2nd Floor, SBR CV Towers<br>Madhapur, Hyderabad, Telangana, India 500081</p>
+  </section>
+
+  <section id="career">
+    <h2>Apply for a Career</h2>
+    <form action="mailto:mnm.mohan.finance@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="Full Name" placeholder="Full Name" required />
+      <input type="email" name="Email" placeholder="Email" required />
+      <input type="tel" name="Phone" placeholder="Phone Number" required />
+      <input type="text" name="Position" placeholder="Position Applying For" required />
+      <textarea name="Experience" rows="5" placeholder="Brief about your experience or skills" required></textarea>
+      <input type="submit" value="Apply Now" />
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MNM Facilitech Pvt. Ltd. | All Rights Reserved</p>
+  </footer>
+
+  <script>
+    console.log("MNM Facilitech website with forms is active.");
+  </script>
+</body>
+</html>
